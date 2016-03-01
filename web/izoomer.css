@@ -1,0 +1,54 @@
+body {
+   background-image: url(images/13,jpg);
+  font-size:           small;
+  font-family:         Verdana, Helvetica, Arial, sans-serif;
+  line-height:         1.6em;
+}
+
+#description{
+   text-align: center;
+   width: 400px;
+   float: right;
+   padding:0px 80px 40px 40px;
+   margin-left: 20px;
+   
+}
+
+#function{
+    margin: 100px 400px 300px 10px;
+}
+
+#allcontent{
+    width: 850px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#iZoomer{
+    font-size: larger;
+    font-weight: bold;
+    color:#007e7e;
+}
+
+#example{
+    clear: right;
+}
+
+#footer{
+    font-size: smaller;
+}
+
+#BUAA{
+    border-bottom: darkseagreen dotted;
+}
+#form{
+    padding-top: 50px;
+    padding-right:100px;
+   width: 450px;
+   float: right;
+}
+#header{
+    padding-bottom: 10px;
+}
