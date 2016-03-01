@@ -29,19 +29,18 @@
             <div id="description">
                 <h1>Your Best Friend</h1>
                 <p>
-                    There're many beautiful moments in life worth remembering. 
-                    Taking a photo ,that you may later want to zoom and hang in 
-                    your room ,whenever it happens is necessary. While carring a 
-                    single-lens reflex camera anytime is unpractical,the photos 
-                    taken with your phone may be low-rated when you zoom them; 
+                    There're many fleeting beautiful moments in our life that worth memorizing. 
+                    Taking a photo ,which you may later want to zoom and hang in 
+                    your room ,is necessary. While carrying a 
+                    single-lens reflex camera anytime anywhere is unpractical,and the photos 
+                    taken with your phone may be too low-rated to zoom without much distorting; 
                 </p>
                 <p>Want to make a stunning poster? 
                     Want to set your favorite picture as desktop background? However
                     your raw photo is so low-rated.
                 </p>  
-                <p>A low quality movie becomes a nightmare when you play it in 
-                    full screen, eh? What? You can’t bear the colorful icons as 
-                    the background either?
+                <p>A low quality movie can become a nightmare when you play it in 
+                    full screen, the annoying mosaic pixels are unbearable.
                 </p>
                 <p>What to do?</p>
                 <span id="iZoomer"><p>Now，Seek for the help of the iZoomer</p></span>
@@ -62,8 +61,8 @@
                 <div id="BUAA">
                     <span id="example"><h2>Aktuelle Beispiele</h2></span>
                     <p>The badge of BUAA, zoomed by iZoomer, is recognizable.The 
-                        edge of the badge circle is smooth compared with the sawtooth
-                        of the badge zoomed directly;
+                        circle edge of the badge is smooth compared with the sawtooth
+                        of the badge edge zoomed directly;
                     </p>
                     <img src="images/3.bmp" alt="buaa_zoommed" />
                     <br/>
@@ -72,7 +71,7 @@
 
                 <p>After zooming，the eye socket of the tiger is smooth and the
                     stripes of the fur is very clear too. While the image zoomed
-                    directly is fuzzy with a slightly serrated border</p>
+                    directly is fuzzy with slightly serrated border</p>
                 <img src="images/1.bmp" alt="tiger_zoommed" />
 
 
@@ -84,7 +83,7 @@
             <div id="footer">
                 <center>
                     <p>
-                        &copy; 2013, BUAA SCSE 11061196<br />
+                        &copy; 2013, BUAA SCSE 11061196 Tian Xing<br />
                         All trademarks and registered trademarks appearing on this site are 
                         the property of their respective owners.
                     </p>

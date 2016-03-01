@@ -1,4 +1,4 @@
-package com.txsing.izoomer.logic;
+package com.txsing.izoomer.zoomlogic;
 import java.awt.Dimension;
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorModel;

@@ -1,6 +1,6 @@
-package com.txsing.izoomer.web;
+package com.txsing.izoomer.weblogic;
 
-import com.txsing.izoomer.logic.ImageScaleTestStub;
+import com.txsing.izoomer.zoomlogic.ImageScaleTestStub;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -36,7 +36,6 @@ public class Upload extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    //public final String SAVE_FOLDER = this.getServletContext().getRealPath("/");
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException, FileUploadException {
@@ -58,7 +57,7 @@ public class Upload extends HttpServlet {
         org.lxh.smart.Request req = mySmartUpload.getRequest();
 
         String ratio = req.getParameter("ratio");
-        int ratioNum = 3;
+        int ratioNum = 0;
         if (ratio != null && !ratio.trim().equals("")) {
             ratioNum = Integer.parseInt(ratio);
         }
@@ -66,7 +65,6 @@ public class Upload extends HttpServlet {
         //save uplodaed file to the server and sent it to zoom process.
         File outputFile = null;
         for (int i = 0; i < mySmartUpload.getFiles().getCount(); i++) {
-
             org.lxh.smart.File file = mySmartUpload.getFiles().getFile(i);
 
             if (file.isMissing()) {
@@ -90,9 +88,8 @@ public class Upload extends HttpServlet {
             response.sendRedirect("result.jsp?image=" + outputFile.getName() 
                     + "&imagesrc=" + file.getFileName() + "&savedir="+SAVE_FOLDER);
         }
-
     }
-
+    
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.

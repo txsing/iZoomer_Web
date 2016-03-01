@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.txsing.izoomer.web;
+package com.txsing.izoomer.weblogic;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -36,6 +36,7 @@ public class FeedBack extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         request.setCharacterEncoding("UTF-8");
+        
         String commentLevel = request.getParameter("isContented");
         String remarkString = request.getParameter("Remarks");
                 boolean append = false;
@@ -56,11 +57,8 @@ public class FeedBack extends HttpServlet {
         } catch (IOException e) {
             System.err.println(e.getMessage());
         }
-
     }
-
-   
-
+    
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP

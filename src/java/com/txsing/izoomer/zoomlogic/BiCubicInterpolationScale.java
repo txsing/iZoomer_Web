@@ -1,4 +1,4 @@
-package com.txsing.izoomer.logic;
+package com.txsing.izoomer.zoomlogic;
 // http://www.paulinternet.nl/?page=bicubic
 // http://en.wikipedia.org/wiki/Bicubic_interpolation
 

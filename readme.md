@@ -4,6 +4,6 @@ This project is under support of National College Student Innovation Training Pr
 
 The logic behind is a self-designed adaptive interpolation algorithm based on Cubic Spline Fitting, which can compute the value of new pixels according the exsiting ones, which will later be interpolated into zoomed low-rated images to improve its quality.
 
-![](https://github.com/txsing/iZoomer_Web/raw/master/demo1.png)
-![](https://github.com/txsing/iZoomer_Web/raw/master/demo2.png)
+![](https://github.com/txsing/iZoomer_Web/raw/master/demo/demo1.png)
+![](https://github.com/txsing/iZoomer_Web/raw/master/demo/demo2.png)
 
